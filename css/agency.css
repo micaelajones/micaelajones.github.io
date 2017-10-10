@@ -69,7 +69,7 @@ body {
     right: 0;
     padding: 13px;
     text-transform: uppercase;
-    color: white;
+    color: #1a293e;
     border: 0;
     background-color: #46a47f;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -98,7 +98,7 @@ body {
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent; }
+    background-color: #1a293e; }
     #mainNav .navbar-brand {
       font-size: 1.75em;
       -webkit-transition: all 0.3s;
@@ -118,7 +118,7 @@ body {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/horses.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
