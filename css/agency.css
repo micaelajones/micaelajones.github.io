@@ -70,20 +70,6 @@ body {
     font-style: italic;
 }
 
-/*
-.fa-heart {
-    color: #a4466c;
-}
-
-.fa-pencil {
-   color: #e38c07;
-}
-
-.fa-paint-brush {
-    color: #466ca4;
-}
-*/
-
 #mainNav {
   background-color: #1a293e; }
   #mainNav .navbar-toggler {
@@ -142,7 +128,10 @@ body {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/aquarium.jpg");
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ), url("../img/aquarium.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -156,6 +145,7 @@ header.masthead {
     header.masthead .intro-text .intro-lead-in {
       font-size: 22px;
       font-style: italic;
+      font-weight: bold;    
       line-height: 22px;
       margin-bottom: 25px;
       font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
